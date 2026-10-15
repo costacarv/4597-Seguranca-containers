@@ -26,6 +26,6 @@ jobs:
       
         ignore-base: false
         
-        dockerhub-user: lilmath
+        dockerhub-user: ${{ secrets.DOCKERHUB_USER }}
         # Docker Hub PAT
         dockerhub-password: ${{ secrets.DOCKERHUB_PASS }}
